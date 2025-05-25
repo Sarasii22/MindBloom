@@ -1,0 +1,48 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  background: linear-gradient(135deg, #F9F9F9 0%, #EDEDED 100%);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Colors */
+:root {
+  --soft-blue: #ADD8E6;
+  --beige: #F5F5DC;
+  --soft-pink: #F8C8DC;
+  --lavender: #E6E6FA;
+  --rose-gold: #D4A5A5;
+  --coral: #FF9999;
+  --mint: #A8E4A0;
+  --sepia: #8B6F47;
+  --white: #FFFFFF;
+  --gray: #666;
+  --dark-gray: #333;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+  color: var(--dark-gray);
+}
+
+p, a, li {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Floral Divider */
+.floral-divider {
+  background: url('/floral-bg.png') center/cover;
+  height: 50px;
+  margin: 2rem 0;
+  opacity: 0.5;
+}
