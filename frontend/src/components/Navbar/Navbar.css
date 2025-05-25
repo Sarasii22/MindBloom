@@ -1,5 +1,14 @@
 nav {
-  background: linear-gradient(90deg, var(--rose-gold), var(--soft-pink));
+  background: linear-gradient(
+    -93deg,
+    #E99E9E 0%,
+    #E9A2A9 13%,
+    #EAA7B4 25%,
+    #EBACBF 45%,
+    #ECB0CA 57%,
+    #EDB5D5 72%,
+    #EEBAE0 100% /* Extend the last color to 100% */
+  );
   padding: 1.5rem;
   box-shadow: var(--shadow);
   position: sticky;
