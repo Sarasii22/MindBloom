@@ -26,23 +26,29 @@ body {
   --gray: #666;
   --dark-gray: #333;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --primary-text-color: #000000;
+  --text-color1: #8C7979;
+  --text-color2: #6B5C5C;
+  --text-color3: #FDF6FE;
+  --text-color4: #624565;
+  --text-color5: #EDB7F4;
+  --text-color6: #FFE8E8;
+  --text-color7: #A575AB;
+  --text-color8: #676767;
+  --text-color9: #585B69;
+  --text-color10: #5C2D2D;
+  --text-color11: #6499B5;
+  --text-color12: #FFFCFC;
+  --btn-color1: #B3E5FF;
+  --btn-color2: #EEBBBB;
+  --btn-color3: #F0C3F6;
+  --btn-color4: #3B5B6B;
+  --btn-color5: #80C5E8;
+  --btn-color6: #F5D6F9;
+
 }
 
-/* Typography */
-h1, h2, h3 {
-  font-family: 'Caveat', cursive;
-  font-weight: 700;
-  color: var(--dark-gray);
-}
 
-p, a, li {
-  font-family: 'Inter', sans-serif;
-}
 
-/* Floral Divider */
-.floral-divider {
-  background: url('C:\Users\saras\Downloads\journalling.jpg') center/cover;
-  height: 50px;
-  margin: 2rem 0;
-  opacity: 0.5;
-}
+
+

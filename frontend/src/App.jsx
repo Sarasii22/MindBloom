@@ -9,6 +9,9 @@ function App(){
         <div>
             <BrowserRouter>
                 <Navbar />
+                <div className="container">
+                    <Home /> {/* Render your Home component or other pages here */}
+                </div>
                
                 
             </BrowserRouter>
